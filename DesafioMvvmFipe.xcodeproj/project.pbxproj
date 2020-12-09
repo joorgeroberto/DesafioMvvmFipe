@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D990A42581247400344E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990A32581247400344E8A /* AppDelegate.swift */; };
+		19D990A62581247400344E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990A52581247400344E8A /* SceneDelegate.swift */; };
+		19D990A82581247400344E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990A72581247400344E8A /* ViewController.swift */; };
+		19D990AB2581247400344E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D990A92581247400344E8A /* Main.storyboard */; };
+		19D990AD2581247500344E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D990AC2581247500344E8A /* Assets.xcassets */; };
+		19D990B02581247500344E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D990AE2581247500344E8A /* LaunchScreen.storyboard */; };
+		19D990BB2581247500344E8A /* DesafioMvvmFipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990BA2581247500344E8A /* DesafioMvvmFipeTests.swift */; };
+		19D990C62581247600344E8A /* DesafioMvvmFipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990C52581247600344E8A /* DesafioMvvmFipeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19D990B72581247500344E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D990982581247400344E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D9909F2581247400344E8A;
+			remoteInfo = DesafioMvvmFipe;
+		};
+		19D990C22581247600344E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D990982581247400344E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D9909F2581247400344E8A;
+			remoteInfo = DesafioMvvmFipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19D990A02581247400344E8A /* DesafioMvvmFipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioMvvmFipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D990A32581247400344E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19D990A52581247400344E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19D990A72581247400344E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19D990AA2581247400344E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19D990AC2581247500344E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19D990AF2581247500344E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19D990B12581247500344E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D990B62581247500344E8A /* DesafioMvvmFipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioMvvmFipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D990BA2581247500344E8A /* DesafioMvvmFipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioMvvmFipeTests.swift; sourceTree = "<group>"; };
+		19D990BC2581247500344E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D990C12581247600344E8A /* DesafioMvvmFipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioMvvmFipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D990C52581247600344E8A /* DesafioMvvmFipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioMvvmFipeUITests.swift; sourceTree = "<group>"; };
+		19D990C72581247600344E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D9909D2581247400344E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D990B32581247500344E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D990BE2581247600344E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D990972581247400344E8A = {
+			isa = PBXGroup;
+			children = (
+				19D990A22581247400344E8A /* DesafioMvvmFipe */,
+				19D990B92581247500344E8A /* DesafioMvvmFipeTests */,
+				19D990C42581247600344E8A /* DesafioMvvmFipeUITests */,
+				19D990A12581247400344E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19D990A12581247400344E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19D990A02581247400344E8A /* DesafioMvvmFipe.app */,
+				19D990B62581247500344E8A /* DesafioMvvmFipeTests.xctest */,
+				19D990C12581247600344E8A /* DesafioMvvmFipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D990A22581247400344E8A /* DesafioMvvmFipe */ = {
+			isa = PBXGroup;
+			children = (
+				19D990A32581247400344E8A /* AppDelegate.swift */,
+				19D990A52581247400344E8A /* SceneDelegate.swift */,
+				19D990A72581247400344E8A /* ViewController.swift */,
+				19D990A92581247400344E8A /* Main.storyboard */,
+				19D990AC2581247500344E8A /* Assets.xcassets */,
+				19D990AE2581247500344E8A /* LaunchScreen.storyboard */,
+				19D990B12581247500344E8A /* Info.plist */,
+			);
+			path = DesafioMvvmFipe;
+			sourceTree = "<group>";
+		};
+		19D990B92581247500344E8A /* DesafioMvvmFipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				19D990BA2581247500344E8A /* DesafioMvvmFipeTests.swift */,
+				19D990BC2581247500344E8A /* Info.plist */,
+			);
+			path = DesafioMvvmFipeTests;
+			sourceTree = "<group>";
+		};
+		19D990C42581247600344E8A /* DesafioMvvmFipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19D990C52581247600344E8A /* DesafioMvvmFipeUITests.swift */,
+				19D990C72581247600344E8A /* Info.plist */,
+			);
+			path = DesafioMvvmFipeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19D9909F2581247400344E8A /* DesafioMvvmFipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D990CA2581247600344E8A /* Build configuration list for PBXNativeTarget "DesafioMvvmFipe" */;
+			buildPhases = (
+				19D9909C2581247400344E8A /* Sources */,
+				19D9909D2581247400344E8A /* Frameworks */,
+				19D9909E2581247400344E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioMvvmFipe;
+			productName = DesafioMvvmFipe;
+			productReference = 19D990A02581247400344E8A /* DesafioMvvmFipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19D990B52581247500344E8A /* DesafioMvvmFipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D990CD2581247600344E8A /* Build configuration list for PBXNativeTarget "DesafioMvvmFipeTests" */;
+			buildPhases = (
+				19D990B22581247500344E8A /* Sources */,
+				19D990B32581247500344E8A /* Frameworks */,
+				19D990B42581247500344E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D990B82581247500344E8A /* PBXTargetDependency */,
+			);
+			name = DesafioMvvmFipeTests;
+			productName = DesafioMvvmFipeTests;
+			productReference = 19D990B62581247500344E8A /* DesafioMvvmFipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19D990C02581247600344E8A /* DesafioMvvmFipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D990D02581247600344E8A /* Build configuration list for PBXNativeTarget "DesafioMvvmFipeUITests" */;
+			buildPhases = (
+				19D990BD2581247600344E8A /* Sources */,
+				19D990BE2581247600344E8A /* Frameworks */,
+				19D990BF2581247600344E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D990C32581247600344E8A /* PBXTargetDependency */,
+			);
+			name = DesafioMvvmFipeUITests;
+			productName = DesafioMvvmFipeUITests;
+			productReference = 19D990C12581247600344E8A /* DesafioMvvmFipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D990982581247400344E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					19D9909F2581247400344E8A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					19D990B52581247500344E8A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 19D9909F2581247400344E8A;
+					};
+					19D990C02581247600344E8A = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 19D9909F2581247400344E8A;
+					};
+				};
+			};
+			buildConfigurationList = 19D9909B2581247400344E8A /* Build configuration list for PBXProject "DesafioMvvmFipe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19D990972581247400344E8A;
+			productRefGroup = 19D990A12581247400344E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19D9909F2581247400344E8A /* DesafioMvvmFipe */,
+				19D990B52581247500344E8A /* DesafioMvvmFipeTests */,
+				19D990C02581247600344E8A /* DesafioMvvmFipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19D9909E2581247400344E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D990B02581247500344E8A /* LaunchScreen.storyboard in Resources */,
+				19D990AD2581247500344E8A /* Assets.xcassets in Resources */,
+				19D990AB2581247400344E8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D990B42581247500344E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D990BF2581247600344E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D9909C2581247400344E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D990A82581247400344E8A /* ViewController.swift in Sources */,
+				19D990A42581247400344E8A /* AppDelegate.swift in Sources */,
+				19D990A62581247400344E8A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D990B22581247500344E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D990BB2581247500344E8A /* DesafioMvvmFipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D990BD2581247600344E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D990C62581247600344E8A /* DesafioMvvmFipeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19D990B82581247500344E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D9909F2581247400344E8A /* DesafioMvvmFipe */;
+			targetProxy = 19D990B72581247500344E8A /* PBXContainerItemProxy */;
+		};
+		19D990C32581247600344E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D9909F2581247400344E8A /* DesafioMvvmFipe */;
+			targetProxy = 19D990C22581247600344E8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19D990A92581247400344E8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19D990AA2581247400344E8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19D990AE2581247500344E8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19D990AF2581247500344E8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19D990C82581247600344E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19D990C92581247600344E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19D990CB2581247600344E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2BKJ22455;
+				INFOPLIST_FILE = DesafioMvvmFipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.joorgeroberto.DesafioMvvmFipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19D990CC2581247600344E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2BKJ22455;
+				INFOPLIST_FILE = DesafioMvvmFipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.joorgeroberto.DesafioMvvmFipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19D990CE2581247600344E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2BKJ22455;
+				INFOPLIST_FILE = DesafioMvvmFipeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.joorgeroberto.DesafioMvvmFipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioMvvmFipe.app/DesafioMvvmFipe";
+			};
+			name = Debug;
+		};
+		19D990CF2581247600344E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2BKJ22455;
+				INFOPLIST_FILE = DesafioMvvmFipeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.joorgeroberto.DesafioMvvmFipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioMvvmFipe.app/DesafioMvvmFipe";
+			};
+			name = Release;
+		};
+		19D990D12581247600344E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2BKJ22455;
+				INFOPLIST_FILE = DesafioMvvmFipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.joorgeroberto.DesafioMvvmFipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioMvvmFipe;
+			};
+			name = Debug;
+		};
+		19D990D22581247600344E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2BKJ22455;
+				INFOPLIST_FILE = DesafioMvvmFipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.joorgeroberto.DesafioMvvmFipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioMvvmFipe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D9909B2581247400344E8A /* Build configuration list for PBXProject "DesafioMvvmFipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D990C82581247600344E8A /* Debug */,
+				19D990C92581247600344E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D990CA2581247600344E8A /* Build configuration list for PBXNativeTarget "DesafioMvvmFipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D990CB2581247600344E8A /* Debug */,
+				19D990CC2581247600344E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D990CD2581247600344E8A /* Build configuration list for PBXNativeTarget "DesafioMvvmFipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D990CE2581247600344E8A /* Debug */,
+				19D990CF2581247600344E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D990D02581247600344E8A /* Build configuration list for PBXNativeTarget "DesafioMvvmFipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D990D12581247600344E8A /* Debug */,
+				19D990D22581247600344E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19D990982581247400344E8A /* Project object */;
+}
