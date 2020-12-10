@@ -201,7 +201,6 @@
 				19D990A32581247400344E8A /* AppDelegate.swift */,
 				19D990A52581247400344E8A /* SceneDelegate.swift */,
 				19D990AC2581247500344E8A /* Assets.xcassets */,
-				19D990AE2581247500344E8A /* LaunchScreen.storyboard */,
 				19D990B12581247500344E8A /* Info.plist */,
 			);
 			path = DesafioMvvmFipe;
@@ -247,6 +246,7 @@
 		19D990D8258124BF00344E8A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				19D990AE2581247500344E8A /* LaunchScreen.storyboard */,
 				19AE390B25818DC9006B274E /* DefaultInfo */,
 				19AE38F5258156BA006B274E /* TableViewDelegateDataSource */,
 				1956352925812D2900C0FB92 /* CustomCell */,
