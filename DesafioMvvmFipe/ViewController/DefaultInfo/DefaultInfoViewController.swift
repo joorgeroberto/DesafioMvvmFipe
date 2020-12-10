@@ -8,22 +8,24 @@
 import UIKit
 
 class DefaultInfoViewController: UIViewController {
-
+    var viewModel: DefaultInfoViewModel!
+    @IBOutlet weak var labelsContainer: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        title = viewModel.getViewTitle()
+        loadData()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func loadData() {
+        viewModel.loadData(onComplete: { (success) in
+            self.viewModel.createLabels(container: self.labelsContainer)
+        })
     }
-    */
-
+    
+    static func getView(viewModel: DefaultInfoViewModel) -> DefaultInfoViewController {
+        let viewDefault = UIStoryboard(name: "DefaultInfo", bundle: nil).instantiateInitialViewController() as! DefaultInfoViewController
+        viewDefault.viewModel = viewModel
+        return viewDefault
+    }
 }

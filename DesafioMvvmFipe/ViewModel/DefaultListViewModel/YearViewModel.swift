@@ -25,9 +25,12 @@ class YearViewModel: DefaultListViewModelProtocol {
     }
     
     func getNextViewController(index: Int) -> UIViewController {
-        let viewModel = YearViewModel()
-        viewModel.model = arrayYears![index]
-        return DefaultInfoViewController()
+        let viewModel = DefaultInfoViewModel()
+        viewModel.brand = self.brand
+        viewModel.model = self.model
+        viewModel.year = arrayYears![index]
+        
+        return DefaultInfoViewController.getView(viewModel: viewModel)
     }
     
     func getTitleForCell(at index: Int) -> String {
@@ -41,7 +44,7 @@ class YearViewModel: DefaultListViewModelProtocol {
     }
     
     func getViewTitle() -> String {
-        return "\(model!.name!) - Anos"
+        return "\(model!.name!)"
     }
     
     

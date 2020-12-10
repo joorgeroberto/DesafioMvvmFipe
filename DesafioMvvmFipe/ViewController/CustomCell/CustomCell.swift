@@ -9,6 +9,7 @@ import UIKit
 
 class CustomCell: UITableViewCell {
 
+    @IBOutlet weak var cellLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,4 +21,7 @@ class CustomCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    func setup(label: String) {
+        cellLabel.text = label
+    }
 }

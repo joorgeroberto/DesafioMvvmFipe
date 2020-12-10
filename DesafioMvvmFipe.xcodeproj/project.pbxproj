@@ -3,18 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A81D093BB36842D22F3919 /* Pods_DesafioMvvmFipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4C4BDF0611CD2163F245AA /* Pods_DesafioMvvmFipeTests.framework */; };
+		05A7E9918D786F1FDCD749BB /* Pods_DesafioMvvmFipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584EA744A03C1C130EEECA16 /* Pods_DesafioMvvmFipe.framework */; };
+		1956351B25812A6400C0FB92 /* DefaultListViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956351A25812A6400C0FB92 /* DefaultListViewModelProtocol.swift */; };
+		1956352025812B2600C0FB92 /* BrandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956351F25812B2600C0FB92 /* BrandViewModel.swift */; };
+		1956352525812B9200C0FB92 /* FipeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956352425812B9200C0FB92 /* FipeAPI.swift */; };
+		1956352B25812D4700C0FB92 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956352A25812D4700C0FB92 /* CustomCell.swift */; };
+		1956353125812F7200C0FB92 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956353025812F7200C0FB92 /* APIManager.swift */; };
+		19AE38F7258156CC006B274E /* TableViewDelegateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE38F6258156CC006B274E /* TableViewDelegateDataSource.swift */; };
+		19AE38FF25816721006B274E /* CarModelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE38FE25816721006B274E /* CarModelViewModel.swift */; };
+		19AE3904258173EE006B274E /* YearViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE3903258173ED006B274E /* YearViewModel.swift */; };
+		19AE390D25818DF6006B274E /* DefaultInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE390C25818DF6006B274E /* DefaultInfoViewController.swift */; };
+		19AE391525818E00006B274E /* DefaultInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AE391425818E00006B274E /* DefaultInfo.storyboard */; };
+		19AE392825819135006B274E /* DefaultInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE392725819135006B274E /* DefaultInfoViewModel.swift */; };
+		19AE392D25819428006B274E /* CarInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AE392C25819428006B274E /* CarInformation.swift */; };
 		19D990A42581247400344E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990A32581247400344E8A /* AppDelegate.swift */; };
 		19D990A62581247400344E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990A52581247400344E8A /* SceneDelegate.swift */; };
-		19D990A82581247400344E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990A72581247400344E8A /* ViewController.swift */; };
-		19D990AB2581247400344E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D990A92581247400344E8A /* Main.storyboard */; };
+		19D990A82581247400344E8A /* DefaultListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990A72581247400344E8A /* DefaultListViewController.swift */; };
+		19D990AB2581247400344E8A /* DefaultList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D990A92581247400344E8A /* DefaultList.storyboard */; };
 		19D990AD2581247500344E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D990AC2581247500344E8A /* Assets.xcassets */; };
 		19D990B02581247500344E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D990AE2581247500344E8A /* LaunchScreen.storyboard */; };
 		19D990BB2581247500344E8A /* DesafioMvvmFipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990BA2581247500344E8A /* DesafioMvvmFipeTests.swift */; };
 		19D990C62581247600344E8A /* DesafioMvvmFipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990C52581247600344E8A /* DesafioMvvmFipeUITests.swift */; };
+		19D990DA258127BD00344E8A /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D990D9258127BD00344E8A /* BaseClass.swift */; };
+		4C0D017DA583E4DDA62612FD /* Pods_DesafioMvvmFipe_DesafioMvvmFipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86C4A74FE51BE4F101E3D89 /* Pods_DesafioMvvmFipe_DesafioMvvmFipeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +51,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E1C56E7ABC2F095AFE3CB17 /* Pods-DesafioMvvmFipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioMvvmFipe.debug.xcconfig"; path = "Target Support Files/Pods-DesafioMvvmFipe/Pods-DesafioMvvmFipe.debug.xcconfig"; sourceTree = "<group>"; };
+		1956351A25812A6400C0FB92 /* DefaultListViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultListViewModelProtocol.swift; sourceTree = "<group>"; };
+		1956351F25812B2600C0FB92 /* BrandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewModel.swift; sourceTree = "<group>"; };
+		1956352425812B9200C0FB92 /* FipeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeAPI.swift; sourceTree = "<group>"; };
+		1956352A25812D4700C0FB92 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		1956353025812F7200C0FB92 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		19AE38F6258156CC006B274E /* TableViewDelegateDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDelegateDataSource.swift; sourceTree = "<group>"; };
+		19AE38FE25816721006B274E /* CarModelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModelViewModel.swift; sourceTree = "<group>"; };
+		19AE3903258173ED006B274E /* YearViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearViewModel.swift; sourceTree = "<group>"; };
+		19AE390C25818DF6006B274E /* DefaultInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultInfoViewController.swift; sourceTree = "<group>"; };
+		19AE391425818E00006B274E /* DefaultInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DefaultInfo.storyboard; sourceTree = "<group>"; };
+		19AE392725819135006B274E /* DefaultInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultInfoViewModel.swift; sourceTree = "<group>"; };
+		19AE392C25819428006B274E /* CarInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInformation.swift; sourceTree = "<group>"; };
 		19D990A02581247400344E8A /* DesafioMvvmFipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioMvvmFipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D990A32581247400344E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19D990A52581247400344E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19D990A72581247400344E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19D990AA2581247400344E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19D990A72581247400344E8A /* DefaultListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultListViewController.swift; sourceTree = "<group>"; };
+		19D990AA2581247400344E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DefaultList.storyboard; sourceTree = "<group>"; };
 		19D990AC2581247500344E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D990AF2581247500344E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D990B12581247500344E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +78,15 @@
 		19D990C12581247600344E8A /* DesafioMvvmFipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioMvvmFipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D990C52581247600344E8A /* DesafioMvvmFipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioMvvmFipeUITests.swift; sourceTree = "<group>"; };
 		19D990C72581247600344E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D990D9258127BD00344E8A /* BaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		1F4C4BDF0611CD2163F245AA /* Pods_DesafioMvvmFipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioMvvmFipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F420B4D6204F9D5B71D3BB /* Pods-DesafioMvvmFipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioMvvmFipe.release.xcconfig"; path = "Target Support Files/Pods-DesafioMvvmFipe/Pods-DesafioMvvmFipe.release.xcconfig"; sourceTree = "<group>"; };
+		518816E3BF5739FD48232958 /* Pods-DesafioMvvmFipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioMvvmFipeTests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioMvvmFipeTests/Pods-DesafioMvvmFipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		584EA744A03C1C130EEECA16 /* Pods_DesafioMvvmFipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioMvvmFipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FCF51677B844156DA562DF /* Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D702920145BA416FB03D08 /* Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests.release.xcconfig"; path = "Target Support Files/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B86C4A74FE51BE4F101E3D89 /* Pods_DesafioMvvmFipe_DesafioMvvmFipeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioMvvmFipe_DesafioMvvmFipeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD22AF505235F440E7C1197 /* Pods-DesafioMvvmFipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioMvvmFipeTests.release.xcconfig"; path = "Target Support Files/Pods-DesafioMvvmFipeTests/Pods-DesafioMvvmFipeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A7E9918D786F1FDCD749BB /* Pods_DesafioMvvmFipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A81D093BB36842D22F3919 /* Pods_DesafioMvvmFipeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0D017DA583E4DDA62612FD /* Pods_DesafioMvvmFipe_DesafioMvvmFipeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1956352925812D2900C0FB92 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				1956352A25812D4700C0FB92 /* CustomCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		1956352F25812F5600C0FB92 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				1956353025812F7200C0FB92 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		19AE38F5258156BA006B274E /* TableViewDelegateDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				19AE38F6258156CC006B274E /* TableViewDelegateDataSource.swift */,
+			);
+			path = TableViewDelegateDataSource;
+			sourceTree = "<group>";
+		};
+		19AE390B25818DC9006B274E /* DefaultInfo */ = {
+			isa = PBXGroup;
+			children = (
+				19AE390C25818DF6006B274E /* DefaultInfoViewController.swift */,
+				19AE391425818E00006B274E /* DefaultInfo.storyboard */,
+			);
+			path = DefaultInfo;
+			sourceTree = "<group>";
+		};
+		19AE391C258190BD006B274E /* DefaultListViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1956351A25812A6400C0FB92 /* DefaultListViewModelProtocol.swift */,
+				1956351F25812B2600C0FB92 /* BrandViewModel.swift */,
+				19AE38FE25816721006B274E /* CarModelViewModel.swift */,
+				19AE3903258173ED006B274E /* YearViewModel.swift */,
+			);
+			path = DefaultListViewModel;
+			sourceTree = "<group>";
+		};
+		19AE3923258190F5006B274E /* DefaultInfoViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				19AE392725819135006B274E /* DefaultInfoViewModel.swift */,
+			);
+			path = DefaultInfoViewModel;
+			sourceTree = "<group>";
+		};
 		19D990972581247400344E8A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +176,8 @@
 				19D990B92581247500344E8A /* DesafioMvvmFipeTests */,
 				19D990C42581247600344E8A /* DesafioMvvmFipeUITests */,
 				19D990A12581247400344E8A /* Products */,
+				9E218CCCF134156D7CD2BB54 /* Pods */,
+				8AE6FCB47AA9237E13685DBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +194,12 @@
 		19D990A22581247400344E8A /* DesafioMvvmFipe */ = {
 			isa = PBXGroup;
 			children = (
+				1956352F25812F5600C0FB92 /* APIManager */,
+				19D990D8258124BF00344E8A /* ViewController */,
+				19D990D7258124AB00344E8A /* ViewModel */,
+				19D990D6258124A400344E8A /* Model */,
 				19D990A32581247400344E8A /* AppDelegate.swift */,
 				19D990A52581247400344E8A /* SceneDelegate.swift */,
-				19D990A72581247400344E8A /* ViewController.swift */,
-				19D990A92581247400344E8A /* Main.storyboard */,
 				19D990AC2581247500344E8A /* Assets.xcassets */,
 				19D990AE2581247500344E8A /* LaunchScreen.storyboard */,
 				19D990B12581247500344E8A /* Info.plist */,
@@ -128,6 +225,68 @@
 			path = DesafioMvvmFipeUITests;
 			sourceTree = "<group>";
 		};
+		19D990D6258124A400344E8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19D990D9258127BD00344E8A /* BaseClass.swift */,
+				19AE392C25819428006B274E /* CarInformation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19D990D7258124AB00344E8A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				19AE3923258190F5006B274E /* DefaultInfoViewModel */,
+				19AE391C258190BD006B274E /* DefaultListViewModel */,
+				1956352425812B9200C0FB92 /* FipeAPI.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		19D990D8258124BF00344E8A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				19AE390B25818DC9006B274E /* DefaultInfo */,
+				19AE38F5258156BA006B274E /* TableViewDelegateDataSource */,
+				1956352925812D2900C0FB92 /* CustomCell */,
+				19D990E12581287100344E8A /* DefaultList */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		19D990E12581287100344E8A /* DefaultList */ = {
+			isa = PBXGroup;
+			children = (
+				19D990A72581247400344E8A /* DefaultListViewController.swift */,
+				19D990A92581247400344E8A /* DefaultList.storyboard */,
+			);
+			path = DefaultList;
+			sourceTree = "<group>";
+		};
+		8AE6FCB47AA9237E13685DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				584EA744A03C1C130EEECA16 /* Pods_DesafioMvvmFipe.framework */,
+				B86C4A74FE51BE4F101E3D89 /* Pods_DesafioMvvmFipe_DesafioMvvmFipeUITests.framework */,
+				1F4C4BDF0611CD2163F245AA /* Pods_DesafioMvvmFipeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E218CCCF134156D7CD2BB54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E1C56E7ABC2F095AFE3CB17 /* Pods-DesafioMvvmFipe.debug.xcconfig */,
+				34F420B4D6204F9D5B71D3BB /* Pods-DesafioMvvmFipe.release.xcconfig */,
+				61FCF51677B844156DA562DF /* Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests.debug.xcconfig */,
+				A6D702920145BA416FB03D08 /* Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests.release.xcconfig */,
+				518816E3BF5739FD48232958 /* Pods-DesafioMvvmFipeTests.debug.xcconfig */,
+				BFD22AF505235F440E7C1197 /* Pods-DesafioMvvmFipeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D990CA2581247600344E8A /* Build configuration list for PBXNativeTarget "DesafioMvvmFipe" */;
 			buildPhases = (
+				5F8C91E15C5031006BF444DB /* [CP] Check Pods Manifest.lock */,
 				19D9909C2581247400344E8A /* Sources */,
 				19D9909D2581247400344E8A /* Frameworks */,
 				19D9909E2581247400344E8A /* Resources */,
+				8F05D05C42A8C5E54D6B135B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +313,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D990CD2581247600344E8A /* Build configuration list for PBXNativeTarget "DesafioMvvmFipeTests" */;
 			buildPhases = (
+				5EA136475A600996FBC0A189 /* [CP] Check Pods Manifest.lock */,
 				19D990B22581247500344E8A /* Sources */,
 				19D990B32581247500344E8A /* Frameworks */,
 				19D990B42581247500344E8A /* Resources */,
@@ -170,9 +332,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D990D02581247600344E8A /* Build configuration list for PBXNativeTarget "DesafioMvvmFipeUITests" */;
 			buildPhases = (
+				8839647A8EB8C4B2F84AA755 /* [CP] Check Pods Manifest.lock */,
 				19D990BD2581247600344E8A /* Sources */,
 				19D990BE2581247600344E8A /* Frameworks */,
 				19D990BF2581247600344E8A /* Resources */,
+				D5A78AD1E1508F522C014098 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +397,8 @@
 			files = (
 				19D990B02581247500344E8A /* LaunchScreen.storyboard in Resources */,
 				19D990AD2581247500344E8A /* Assets.xcassets in Resources */,
-				19D990AB2581247400344E8A /* Main.storyboard in Resources */,
+				19AE391525818E00006B274E /* DefaultInfo.storyboard in Resources */,
+				19D990AB2581247400344E8A /* DefaultList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +418,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EA136475A600996FBC0A189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioMvvmFipeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F8C91E15C5031006BF444DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioMvvmFipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8839647A8EB8C4B2F84AA755 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F05D05C42A8C5E54D6B135B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioMvvmFipe/Pods-DesafioMvvmFipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioMvvmFipe/Pods-DesafioMvvmFipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioMvvmFipe/Pods-DesafioMvvmFipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A78AD1E1508F522C014098 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests/Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19D9909C2581247400344E8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D990A82581247400344E8A /* ViewController.swift in Sources */,
+				19AE38FF25816721006B274E /* CarModelViewModel.swift in Sources */,
+				1956352525812B9200C0FB92 /* FipeAPI.swift in Sources */,
+				19AE38F7258156CC006B274E /* TableViewDelegateDataSource.swift in Sources */,
+				19D990A82581247400344E8A /* DefaultListViewController.swift in Sources */,
+				19AE390D25818DF6006B274E /* DefaultInfoViewController.swift in Sources */,
+				1956351B25812A6400C0FB92 /* DefaultListViewModelProtocol.swift in Sources */,
+				19AE392D25819428006B274E /* CarInformation.swift in Sources */,
+				19AE392825819135006B274E /* DefaultInfoViewModel.swift in Sources */,
+				1956353125812F7200C0FB92 /* APIManager.swift in Sources */,
 				19D990A42581247400344E8A /* AppDelegate.swift in Sources */,
+				19AE3904258173EE006B274E /* YearViewModel.swift in Sources */,
 				19D990A62581247400344E8A /* SceneDelegate.swift in Sources */,
+				1956352025812B2600C0FB92 /* BrandViewModel.swift in Sources */,
+				1956352B25812D4700C0FB92 /* CustomCell.swift in Sources */,
+				19D990DA258127BD00344E8A /* BaseClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +576,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		19D990A92581247400344E8A /* Main.storyboard */ = {
+		19D990A92581247400344E8A /* DefaultList.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				19D990AA2581247400344E8A /* Base */,
 			);
-			name = Main.storyboard;
+			name = DefaultList.storyboard;
 			sourceTree = "<group>";
 		};
 		19D990AE2581247500344E8A /* LaunchScreen.storyboard */ = {
@@ -433,6 +713,7 @@
 		};
 		19D990CB2581247600344E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1C56E7ABC2F095AFE3CB17 /* Pods-DesafioMvvmFipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,7 +724,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.joorgeroberto.DesafioMvvmFipe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.joorgeroberto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,6 +733,7 @@
 		};
 		19D990CC2581247600344E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F420B4D6204F9D5B71D3BB /* Pods-DesafioMvvmFipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,7 +744,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.joorgeroberto.DesafioMvvmFipe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.joorgeroberto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,6 +753,7 @@
 		};
 		19D990CE2581247600344E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 518816E3BF5739FD48232958 /* Pods-DesafioMvvmFipeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +776,7 @@
 		};
 		19D990CF2581247600344E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD22AF505235F440E7C1197 /* Pods-DesafioMvvmFipeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +799,7 @@
 		};
 		19D990D12581247600344E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61FCF51677B844156DA562DF /* Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +820,7 @@
 		};
 		19D990D22581247600344E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D702920145BA416FB03D08 /* Pods-DesafioMvvmFipe-DesafioMvvmFipeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
