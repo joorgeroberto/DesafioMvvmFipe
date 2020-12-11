@@ -11,28 +11,41 @@ import UIKit
 class BrandViewModel: DefaultListViewModelProtocol {
     var fipeAPI = FipeAPI()
     var arrayBrands: [BaseClass]?
+    var filterArray: [BaseClass]?
     
     func loadData(onComplete: @escaping (Bool) -> Void) {
         fipeAPI.getBrands { (arrayBrands, success) in
             self.arrayBrands = arrayBrands
+            self.filterArray = arrayBrands
             onComplete(success)
         }
     }
     
     func getNumberOfRows() -> Int {
-        return arrayBrands?.count ?? 0
+        return filterArray?.count ?? 0
+    }
+    
+    func filterArray(searchQuery: String) {
+        filterArray = [BaseClass]()
+        if !searchQuery.isEmpty {
+            filterArray = arrayBrands?.filter { (element) -> Bool in
+                element.getName().contains(searchQuery.lowercased())
+            }
+        } else {
+            filterArray!.append(contentsOf: arrayBrands!)
+        }
     }
     
     func getNextViewController(index: Int) -> UIViewController {
         let viewModel = CarModelViewModel()
-        viewModel.brand = arrayBrands![index]
+        viewModel.brand = filterArray![index]
         
         //let viewModel = BrandViewModel()
         return DefaultListViewController.getView(viewModel: viewModel)
     }
     
     func getTitleForCell(at index: Int) -> String {
-        return arrayBrands![index].name
+        return filterArray![index].name
     }
     
     func getCustomCell(tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {

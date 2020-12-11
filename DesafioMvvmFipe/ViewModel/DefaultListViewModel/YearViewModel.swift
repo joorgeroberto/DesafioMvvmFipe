@@ -13,28 +13,41 @@ class YearViewModel: DefaultListViewModelProtocol {
     var brand: BaseClass?
     var model: BaseClass?
     var arrayYears: [BaseClass]?
+    var filterArray: [BaseClass]?
     func loadData(onComplete: @escaping (Bool) -> Void) {
         fipeAPI.getYears(brandId: brand!.code!, modelId: model!.code!) { (arrayYears, success) in
             self.arrayYears = arrayYears
+            self.filterArray = arrayYears
             onComplete(success)
         }
     }
     
     func getNumberOfRows() -> Int {
-        return arrayYears?.count ?? 0
+        return filterArray?.count ?? 0
+    }
+    
+    func filterArray(searchQuery: String) {
+        filterArray = [BaseClass]()
+        if !searchQuery.isEmpty {
+            filterArray = arrayYears?.filter { (element) -> Bool in
+                element.getName().contains(searchQuery.lowercased())
+            }
+        } else {
+            filterArray!.append(contentsOf: arrayYears!)
+        }
     }
     
     func getNextViewController(index: Int) -> UIViewController {
         let viewModel = DefaultInfoViewModel()
         viewModel.brand = self.brand
         viewModel.model = self.model
-        viewModel.year = arrayYears![index]
+        viewModel.year = filterArray![index]
         
         return DefaultInfoViewController.getView(viewModel: viewModel)
     }
     
     func getTitleForCell(at index: Int) -> String {
-        return arrayYears![index].name
+        return filterArray![index].name
     }
     
     func getCustomCell(tableView: UITableView, indexPath: IndexPath) -> UITableViewCell {
