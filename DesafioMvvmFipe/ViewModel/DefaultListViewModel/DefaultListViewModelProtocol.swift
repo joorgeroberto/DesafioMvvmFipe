@@ -13,6 +13,8 @@ protocol DefaultListViewModelProtocol {
     
     func getNumberOfRows() -> Int
     
+    func filterArray(searchQuery: String)
+    
     func getNextViewController(index: Int) -> UIViewController
     
     func getTitleForCell(at index: Int) -> String

@@ -14,9 +14,11 @@
 import UIKit
 
 class DefaultListViewController: UIViewController {
+    @IBOutlet weak var searchBar: UISearchBar!
     var viewModel: DefaultListViewModelProtocol!
     @IBOutlet weak var tableView: UITableView!
     var tableViewDelegateDataSource: TableViewDelegateDataSource?
+    var searchBarDelegate: SearchBarDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,8 +41,10 @@ class DefaultListViewController: UIViewController {
     
     func configureTableView() {
         self.tableViewDelegateDataSource = TableViewDelegateDataSource(viewModel: self.viewModel, navigationController: self.navigationController!)
+        self.searchBarDelegate = SearchBarDelegate(viewModel: self.viewModel, tableView: tableView)
         self.tableView.delegate = tableViewDelegateDataSource
         self.tableView.dataSource = tableViewDelegateDataSource
+        self.searchBar.delegate = searchBarDelegate
         
         DispatchQueue.main.async {
             self.tableView.reloadData()
