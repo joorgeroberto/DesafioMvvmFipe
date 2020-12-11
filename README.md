@@ -23,4 +23,4 @@ Exercício para o curso da Digital House: IOS usando Swift promovido pelo Progra
 ### OBS: Para praticar e facilitar a consulta dos dados, uma barra de pesquisa foi adicionada. 
 
 ### Preview: <br>
-<img src="https://github.com/joorgeroberto/DesafioMvvmFipe/blob/master/1113_TvMazeApi/appVideo.gif" width="300" />
+<img src="https://github.com/joorgeroberto/DesafioMvvmFipe/blob/main/appVideo.gif" width="300" />
