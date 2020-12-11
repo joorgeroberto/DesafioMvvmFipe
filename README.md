@@ -20,7 +20,7 @@ Exercício para o curso da Digital House: IOS usando Swift promovido pelo Progra
     - https://parallelum.com.br/fipe/api/v1/carros/marcas/21/modelos/437/anos/1987-1
 
 
-### OBS: Para praticar e facilitar a consulta dos dados, uma barra de pesquisa foi adicionada. 
+#### OBS: Para praticar e facilitar a consulta dos dados, uma barra de pesquisa foi adicionada. 
 
 ### Preview: <br>
 <img src="https://github.com/joorgeroberto/DesafioMvvmFipe/blob/main/appVideo.gif" width="300" />
